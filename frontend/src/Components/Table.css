@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.title h2 {
+  margin-left: 15px;
+  margin-top: 16px;
+}
+.title .search {
+  margin-left: 60px;
+  width: 50vw;
+  height: 55px;
+  padding: 15px;
+  border-radius: 25px;
+}
+.navlinks {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.navlinks ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.details {
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.details .eachitem {
+  margin-bottom: 20px;
+}
